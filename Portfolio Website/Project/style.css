@@ -1,0 +1,269 @@
+body {
+    background-color: #F4F2EE;
+    font-family: 'Arial', sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.contact-form {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: #343a40;
+    margin-top: 40px;
+    padding: 20px;
+    transition: background-color 0.3s;
+}
+
+.contact-form .form-control {
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+
+.contact-form button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    padding: 12px 20px;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+.contact-info {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.contact-info .icon {
+    color: #007bff;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.contact-info .info-item {
+    margin-bottom: 20px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1080px;
+}
+
+.footer {
+    background-color: #007bff;
+    border-top: 4px solid #ddd;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.hero {
+    background: linear-gradient(90deg, rgb(243, 85, 85) 0%, rgba(123, 158, 255, 1) 100%);
+    color: white;
+    padding: 100px 0;
+    padding-top: 170px;
+    text-align: center;
+}
+
+.img-container {
+    border: 3px solid #007bff;
+    border-radius: 50%;
+    display: inline-block;
+    height: 250px;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 250px;
+}
+
+.img-container img {
+    border-radius: 50%;
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.img-container1 {
+    border: 2px solid #0048ff;
+    border-radius: 5%;
+    display: inline-block;
+    height: 320px;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 320px;
+}
+
+.img-container2 {
+    border-top: 5px solid royalblue;
+    border-right: 5px solid purple;
+    border-bottom: 5px solid green;
+    border-left: 5px solid yellowgreen;
+    border-radius: 8px;
+    /* Slightly rounded corners */
+    width: 100%;
+    /* Adjusted height */
+    margin-bottom: 10px;
+    /* Space below the image */
+    overflow: hidden;
+    height: 200px;
+    /* Full width of the card */
+    object-fit: cover;
+    /* Ensures the image covers the area without distortion */
+    padding: 5px 10;
+}
+
+.info {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: #343a40;
+    margin-bottom: 20px;
+    padding: 20px;
+    transition: transform 0.3s;
+}
+
+.info:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+.nav-item {
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    padding: auto;
+}
+
+.navbar {
+    background-color: #007bff;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-brand,
+.nav-link {
+    color: #fff;
+}
+
+.section-title {
+    color: #007bff;
+    font-family: 'Pacifico', cursive;
+    margin: 40px 0;
+    text-align: center;
+}
+
+.section-title h2 {
+    border-bottom: 3px solid #007bff;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.certi-title {
+    color: #007bff;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    border-bottom: 1px solid #007bff;
+    display: inline-block;
+}
+
+
+.social-icons a {
+    color: white;
+    font-size: 1.5rem;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.social-icons-about {
+    color: blue;
+    font-size: 1.5rem;
+    margin: 20 20 20 20 px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #d3d3d3;
+}
+
+.social-icons-about a:hover {
+    color: green;
+}
+
+
+
+/* CSS for Dark Mode */
+.dark-mode {
+    background-color: #343a40;
+    color: #e0e0e0;
+}
+
+.dark-mode .contact-form {
+    background-color: #155964;
+    color: white !important;
+}
+
+.dark-mode .contact-form button {
+    background-color: royalblue;
+}
+
+.dark-mode .contact-form button:hover {
+    background-color: green;
+    color: whitesmoke;
+}
+
+.dark-mode .contact-info .icon {
+    color: #5ee1f5;
+}
+
+.dark-mode .footer {
+    background-color: #222;
+    border-top: 4px solid #444;
+}
+
+.dark-mode .hero {
+    background-color: #2234ae;
+    background-image: linear-gradient(315deg, #2234ae 0%, #191714 74%);
+}
+
+.dark-mode .info {
+    background-color: #5a5a5a;
+    color: #e0e0e0;
+}
+
+.dark-mode .info:hover {
+    background-color: #6d6d6d;
+}
+
+.dark-mode .navbar {
+    background-color: #222;
+}
+
+.dark-mode .project-item {
+    background-color: #3C3C3C;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    color: #e0e0e0;
+}
+
+.dark-mode .project-item:hover {
+    background-color: #5a5a5a;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.dark-mode .section-title h2 {
+    border-color: rgb(72, 210, 72);
+    color: #5ee1f5;
+}
+
+.dark-mode .certi-title {
+    border-color: rgb(72, 210, 72);
+    color: #5ee1f5;
+}

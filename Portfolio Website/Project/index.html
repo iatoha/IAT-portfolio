@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="icon" type="image/x-icon" href="./Images/title-icon-1.png"> -->
+    <title>TOHA - Portfolio</title>
+
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome CDN -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar section -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow">
+        <div class="container">
+            <a class="navbar-brand" href="#home">Ismam Ahmmed Toha</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home"><i class="fas fa-home"></i> Home</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#about"><i class="fas fa-user"></i> About</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#services"> <i class="fas fa-laptop-code"></i>
+                            Services</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#projects"><i class="fas fa-folder-open"></i>
+                            Projects</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#skills"><i class="fas fa-code"></i> Skills</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#certifications"> <i class="fas fa-certificate"></i>
+                            Certifications</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+                    </li>
+                </ul>
+                <button id="theme-toggle" class="btn btn-outline-light ms-3" aria-label="Toggle theme">
+                    <i id="theme-icon" class="fas fa-moon"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Home section -->
+    <header id="home" class="hero">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 text-center text-lg-start">
+                    <h1><b>Welcome to My Portfolio</b></h1>
+                    <p class="lead">A passionate Web Developer with a focus on Full Stack Web Development.</p>
+                    <a href="#contact" class="btn btn-light mb-5"><b>Contact</b></a>
+                </div>
+                <div class="col-lg-6 text-center text-lg-end">
+                    <div class="img-container">
+                        <img class="img-fluid rounded" src="./Images/toha.jpg" alt="Profile Picture">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About section -->
+    <section id="about" class="py-5">
+        <div class="container text-center">
+            <div class="section-title">
+                <h2>About Me</h2>
+            </div>
+            <div class="row info">
+                <div class="col-lg-6">
+                    <div>
+                        <p class="lead">Hello! I'm Ismam Ahmmed Toha, a Web Developer with experience in full
+                            stack web development.I have a strong background in both frontend and backend technologies
+                            and thrive in fast-paced, agile environments.</p>
+
+                        <div class="mt-4">
+                            <p><i class="fas fa-briefcase"></i> Support Associate at Shikho | Full Stack Web Developer
+                                (MERN) | Android App Developer |
+                                Fiver | Upwork</p>
+
+                            <p><i class="fas fa-car"></i> Founder of Tanvir_Rent_A_Car, providing affordable rides to
+                                300+ users within 6 months.
+                                <strong>Tanvir_Rent_A_Car:</strong> <a href="https://www.facebook.com/TanviRentACar"
+                                    target="_blank" rel="noopener">Visit</a><br>
+                            </p>
+
+                            <p><i class="fas fa-paint-brush " style="color: #05daff;"></i> Passionate about painting,
+                                traveling, and blogging. NK VLOGS BD, a blogging channel with 800+ subscribers and
+                                100,000+ views. <strong>NK VLOGS BD:</strong> <a
+                                    href="https://www.youtube.com/channel/UCRvLlXr3hn8dpG7ZRXkE7Tw" target="_blank"
+                                    rel="noopener">Visit</a></p>
+
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="img-container1 text-center">
+                        <img class="img-fluid" src="./Images/graduationimage.jpeg"
+                            alt="">
+                    </div>
+                    <div class="mt-4 ">
+                        <p><i class="fas fa-graduation-cap fa-2x"></i></p>
+                        <h6>
+                            <strong>BSC , MSC</strong> in
+                            <strong>CSE</strong>
+                            <!-- BRAC University -->
+                        </h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Services section -->
+    <section id="services" class="py-5">
+        <div class="container text-center">
+            <div class="section-title">
+                <h2>Services</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="info">
+                        <i class="fas fa-laptop-code" style="color: #007bff; font-size: 3rem;"></i>
+                        <h4>Web Development</h4>
+                        <p>We provide modern web development solutions using the latest technologies to create
+                            responsive and user-friendly websites.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="info">
+                        <i class="fas fa-mobile-alt" style="color: #28a745; font-size: 3rem;"></i>
+                        <h4>Mobile App Development</h4>
+                        <p>Our team specializes in creating high-quality mobile applications for both iOS and
+                            Android
+                            platforms to meet your business needs.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="info">
+                        <i class="fas fa-cloud" style="color: #17a2b8; font-size: 3rem;"></i>
+                        <h4>Cloud Services</h4>
+                        <p>We offer comprehensive cloud services including deployment, management, and support to
+                            ensure
+                            your business operations run smoothly.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="info">
+                        <i class="fas fa-search" style="color: #ffc107; font-size: 3rem;"></i>
+                        <h4>SEO Optimization</h4>
+                        <p>Enhance your online presence with our expert SEO services designed to improve your
+                            website's
+                            ranking and drive more traffic.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="info">
+                        <i class="fas fa-paint-brush" style="color: #e83e8c; font-size: 3rem;"></i>
+                        <h4>Graphic Design</h4>
+                        <p>Our creative team offers graphic design services to create visually appealing and
+                            effective
+                            marketing materials for your brand.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="info">
+                        <i class="fas fa-headset" style="color: #6c757d; font-size: 3rem;"></i>
+                        <h4>Customer Support</h4>
+                        <p>We provide dedicated customer support services to assist your clients and ensure their
+                            satisfaction with your products and services.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects section -->
+    <section id="projects" class="py-5">
+        <div class="container text-center">
+            <div class="section-title">
+                <h2>Projects</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="info">
+                        <div class="img-container1 text-center">
+                            <img class="img-fluid" src="./Images/e1.png" alt="15th convocation BRAC University">
+                        </div>
+                        <div>
+                            <h4>E-commerce Website</h4>
+                            <p>Using modern technologies like ReactJS</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="info">
+                        <div class="img-container1 text-center">
+                            <img class="img-fluid" src="./Images/e2.png" alt="15th convocation BRAC University">
+                        </div>
+                        <div>
+                            <h4>Resturent App</h4>
+                            <p>Using modern technologies like React-Native</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="info">
+                        <div class="img-container1 text-center">
+                            <img class="img-fluid" src="./Images/e3.png" alt="15th convocation BRAC University">
+                        </div>
+                        <div>
+                            <h4>FinTech</h4>
+                            <p>Using modern technologies like Kotlin JAVA</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="info">
+                        <div class="img-container1 text-center">
+                            <img class="img-fluid" src="./Images/e4.png" alt="15th convocation BRAC University">
+                        </div>
+                        <div>
+                            <h4>Rent a Car App</h4>
+                            <p>Using Golang Docker</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Skills section -->
+    <section id="skills" class="py-5">
+        <div class="container text-center">
+            <div class="section-title">
+                <h2>Skills</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="info">
+                        <h4><i class="fas fa-code" style="color: #ff5733;"></i> Frontend Development</h4>
+                        <p>HTML5, CSS, Bootstrap, JavaScript, React, Angular</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="info">
+                        <h4><i class="fas fa-server" style="color: #33c3ff;"></i> Backend Development</h4>
+                        <p>Node.js, Express, MongoDB, Python, Django, SQL, PHP, Laravel</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="info">
+                        <h4><i class="fas fa-mobile-alt" style="color: #33ff57;"></i> Mobile / IOS Development</h4>
+                        <p>React Native, Swift, Java, Kotlin</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="info">
+                        <h4><i class="fas fa-code-branch" style="color: #ff33a6;"></i> Version Control</h4>
+                        <p>Git, Docker, CI/CD, Cloud Services (AWS, Azure), Agile Methodologies</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="info">
+                        <h4><i class="fas fa-file-alt" style="color: #ffcc33;"></i> Documentation</h4>
+                        <p>Microsoft Office: Word, Excel, PowerPoint</p>
+                        <p>LaTeX, Google Docs, Markdown, Confluence</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="info">
+                        <h4><i class="fas fa-language" style="color: #8a33ff;"></i> Language</h4>
+                        <p>English</p>
+                        <p>Bangla</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications section -->
+    <section id="certifications" class="py-5">
+        <div class="container text-center">
+            <div class="section-title">
+                <h2>Certifications</h2>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="info">
+                        <img class="img-container2" src="./Images/certificates/cr-1.jpeg" alt="Bohubrihi">
+                        <h4 class="certi-title">Full Stack Web Development MERN</h4>
+                        <h5>Organization: Bohubrihi </h5>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="info">
+                        <img class="img-container2" src="./Images/certificates/cr-5.png" alt="">
+                        <h4 class="certi-title">Java Intermediate</h4>
+                        <h5>Organization: Solo Learn </h5>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="info">
+                        <img class="img-container2" src="./Images/certificates/cr-4.png" alt="">
+                        <h4 class="certi-title">SQL Intermediate</h4>
+                        <h5>Organization: Solo Learn </h5>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="info">
+                        <img class="img-container2" src="./Images/certificates/cr-3.png" alt="">
+                        <h4 class="certi-title">Kotlin</h4>
+                        <h5>Organization: Solo Learn </h5>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="info">
+                        <img class="img-container2" src="./Images/certificates/cr-2.jpg" alt="Great Learning">
+                        <h4 class="certi-title">Intro to Digital Marketing</h4>
+                        <h5>Organization: Great Learning </h5>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="info">
+                        <img class="img-container2" src="./Images/certificates/cr-6.jpg" alt="">
+                        <h4 class="certi-title">Excel </h4>
+                        <h5>Organization: Macquarie University by Coursera </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>Contact</h2>
+            </div>
+            <div class="contact-info">
+                <div class="row">
+                    <div class="col-md-4 info-item">
+                        <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <p>Dhaka, Bangladesh</p>
+                    </div>
+                    <div class="col-md-4 info-item">
+                        <div class="icon"><i class="fas fa-envelope"></i></div>
+                        <p>nazmulkarimtanvir@gmail.com</p>
+                    </div>
+                    <div class="col-md-4 info-item">
+                        <div class="icon"><i class="fas fa-phone"></i></div>
+                        <p>+88 01867064697</p>
+                    </div>
+                </div>
+            </div>
+
+            <form class="contact-form form-bg-editing rounded shadow" action="https://formspree.io/f/mldrdjyp"
+                method="post">
+
+                <div class="form-group">
+                    <label for="countryname"><i>Country / Region:</i></label>
+                    <input type="text" class="form-control" id="countryname" name="countryname"
+                        placeholder="Enter your country or region" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="name"><i>Your name:</i></label>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name"
+                        required>
+                </div>
+
+                <div class="form-group">
+                    <label for="text"><i>Message:</i></label>
+                    <textarea class="form-control" id="text" name="text" rows="5"
+                        placeholder="How can I help you? Example: I need a responsive website" required></textarea>
+                </div>
+
+
+                <div class="form-group">
+                    <label for="email"><i>Email:</i></label>
+                    <input class="form-control" id="email" name="email" rows="5" placeholder="Enter your email"
+                        required></input>
+                </div>
+
+                <div class="form-group">
+                    <label for="number"><i>Contact Number:</i></label>
+                    <input type="tel" class="form-control" id="number" name="number"
+                        placeholder="Enter your number (Optional)">
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-sm mb-2">
+                    Send
+                </button>
+
+            </form>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="social-icons">
+                        <a href="https://github.com/Nazmul-Karim-Tanvir" target="_blank" rel="noopener"
+                            aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/nazmul-karim-tanvir-795563159/" target="_blank"
+                            rel="noopener" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCyGLwYaTWCR-l68h58yixEg" target="_blank"
+                            rel="noopener" aria-label="YouTube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="https://scholar.google.com/citations?user=QV2eEoQAAAAJ&hl=en&authuser=3"
+                            target="_blank" rel="noopener" aria-label="Google Scholer">
+                            <i class="fab fa-google"></i>
+                        </a>
+                    </div>
+                    <p class="mt-3">&copy; 2024 Nazmul Karim Tanvir. All Rights Reserved.</p>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JS Code  -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const navbarToggler = document.querySelector('.navbar-toggler');
+            const togglerIcon = navbarToggler.querySelector('.navbar-toggler-icon');
+            const navLinks = document.querySelectorAll('.nav-link');
+            const navbarCollapse = document.querySelector('.navbar-collapse');
+            const themeToggle = document.getElementById('theme-toggle');
+            const themeIcon = document.getElementById('theme-icon');
+
+            // Toggle icon change on navbar toggler click
+            navbarToggler.addEventListener('click', function () {
+                if (navbarToggler.classList.contains('collapsed')) {
+                    togglerIcon.classList.remove('fas', 'fa-times');
+                    togglerIcon.classList.add('navbar-toggler-icon');
+                } else {
+                    togglerIcon.classList.remove('navbar-toggler-icon');
+                    togglerIcon.classList.add('fas', 'fa-times');
+                }
+            });
+
+            // Handle nav-link clicks
+            navLinks.forEach(function (navLink) {
+                navLink.addEventListener('click', function (event) {
+                    // Prevent default link behavior
+                    event.preventDefault();
+
+                    // Remove 'active' class from all nav-links
+                    navLinks.forEach(function (link) {
+                        link.classList.remove('active');
+                    });
+
+                    // Add 'active' class to the clicked nav-link
+                    navLink.classList.add('active');
+
+                    // Close the collapsed navbar after click (for mobile view)
+                    if (navbarCollapse.classList.contains('show')) {
+                        navbarToggler.click();
+                    }
+
+                    // Scroll to the clicked section
+                    const targetId = navLink.getAttribute('href');
+                    const targetSection = document.querySelector(targetId);
+                    if (targetSection) {
+                        targetSection.scrollIntoView({
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+
+            // Theme toggle functionality
+            themeToggle.addEventListener('click', function () {
+                document.body.classList.toggle('dark-mode');
+
+                // Change theme icon
+                if (document.body.classList.contains('dark-mode')) {
+                    themeIcon.classList.remove('fa-moon');
+                    themeIcon.classList.add('fa-sun');
+                } else {
+                    themeIcon.classList.remove('fa-sun');
+                    themeIcon.classList.add('fa-moon');
+                }
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>
