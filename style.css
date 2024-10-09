@@ -267,3 +267,9 @@ body {
     border-color: rgb(72, 210, 72);
     color: #5ee1f5;
 }
+
+@media screen and (max-width:576px){
+    .img-container2{
+        height: 250px;
+    }
+}
